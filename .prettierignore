@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-ssr
+build
+coverage
+*.log
+.vscode
+.idea
+package-lock.json
+
