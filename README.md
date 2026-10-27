@@ -271,7 +271,7 @@ This project was developed through pair-programming collaboration with **Gemini 
 ## 10. Known Limitations
 
 - **Fixed Grid Size**: Designed specifically for standard 3×3 Tic Tac Toe. Dynamic $N \times N$ board sizes are not yet supported.
-- **Heuristic Computer AI**: The AI implements a deterministic 5-level priority rule system rather than a full Minimax tree search. While highly competent at winning and blocking, it can be beaten by specialized corner-fork setups.
+- **Computer Player**: This implements a deterministic 5-level priority rule system rather than a full Minimax tree search. While highly competent at winning and blocking, it can be beaten by specialized corner-fork setups.
 - **Tab Isolation**: `sessionStorage` is scoped to a single browser tab and is not synchronized across multiple simultaneous browser tabs.
 
 ---
