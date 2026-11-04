@@ -17,7 +17,8 @@ function findCompletingMove(board: BoardState, player: Player): number | null {
 
     const playerCount = values.filter((val) => val === player).length;
     const emptyCount = values.filter((val) => val === null).length;
-
+    console.log('player', playerCount);
+    console.log('empty', emptyCount);
     if (playerCount === 2 && emptyCount === 1) {
       const emptyIdx = indices.find((idx) => board[idx] === null);
       if (emptyIdx !== undefined) {

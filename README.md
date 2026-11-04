@@ -268,6 +268,8 @@ This project was developed through pair-programming collaboration with **Gemini 
 
 ---
 
+commit by vansh
+
 ## 10. Known Limitations
 
 - **Fixed Grid Size**: Designed specifically for standard 3×3 Tic Tac Toe. Dynamic $N \times N$ board sizes are not yet supported.
@@ -276,6 +278,8 @@ This project was developed through pair-programming collaboration with **Gemini 
 
 ---
 
+commit by manvi
+
 ## 11. Future Improvements & Research Integration
 
 1. **Minimax AI with Alpha-Beta Pruning**: Implement an unbeatable AI difficulty setting alongside Easy, Medium, and Expert modes.
@@ -283,3 +287,5 @@ This project was developed through pair-programming collaboration with **Gemini 
 3. **Real-Time Multiplayer (WebRTC / WebSockets)**: Enable peer-to-peer online play via room invitation codes.
 4. **Web Audio Sound Effects**: Incorporate subtle audio chimes on cell clicks, win celebrations, and draw outcomes with a mute toggle.
 5. **Progressive Web App (PWA)**: Add service worker caching and web manifest for full offline mobile installation.
+
+commit by bhanu
